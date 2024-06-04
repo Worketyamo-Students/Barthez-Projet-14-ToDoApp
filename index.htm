@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoApp</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containeur">
+        <div class="content">
+            <div class="head">
+                <div class="title">
+                    TODO
+                </div>
+
+                <div class="icon" id="lightMode">
+                    <img src="./moonIcon.svg" title="Change To Dark Mode" alt="">
+                    <img src="./sunIcon.svg" title="Change To Light Mode" alt="">
+                </div>
+            </div>
+
+            <form class="input" id="input">
+                <button type="submit" class="btn"></button>
+                <input 
+                    type="text" 
+                    placeholder="Currently typing"
+                    minlength="3"
+                    maxlength="500"    
+                    autofocus = "true"
+                    required = "required"
+                >
+            </form>
+
+            <ul class="todo">
+                <div class="list" id="list">
+                    <li class="item">
+                        <div class="left">
+                            <button class="btn"> 
+                                <img src="./tick.png" alt="">
+                            </button>
+                            <span class="text">
+                                Ceci n'est pas une tache complete
+                            </span>
+                        </div>
+                        <button class="right">
+                            <img src="./delete.svg" alt="">
+                        </button>
+                    </li>
+                    
+                    <li class="item completed">
+                        <div class="left">
+                            <button class="btn"> 
+                                <img src="./tick.png" alt="">
+                            </button>
+                            <span class="text">
+                                Complete Todo App on Frontend Mentor
+                            </span>
+                        </div>
+                        <button class="right">
+                            <img src="./delete.svg" alt="">
+                        </button>
+                    </li>
+                </div>
+                
+
+                <div class="SortTools" id="SortTools">
+                    <div class="first">
+                        <span id="nbs">2</span>
+                        <span>items left</span>
+                    </div>
+    
+                    <div class="second">
+                        <span class="all">All</span>
+                        <span class="active">Active</span>
+                        <span class="copleted">Copleted</span>
+                    </div>
+    
+                    <div class="thirth">
+                        <span class="clear">Clear</span>
+                        <span class="completedAll">Completed</span>
+                    </div>
+                </div>    
+            </ul>
+
+            <div class="message">
+                <span>
+                    Drag and drop to reorder list
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="https://kit.fontawesome.com/854f485498.js" crossorigin="anonymous"></script> -->
+<script src="./script.js"></script>
+</html>

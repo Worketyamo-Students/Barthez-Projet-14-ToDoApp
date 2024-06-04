@@ -1,0 +1,59 @@
+<li class="item">
+                        <div class="left">
+                            <button class="btn"> 
+                                <img src="./tick.png" alt="">
+                            </button>
+                            <span class="text">
+                                10 minutes meditation
+                            </span>
+                        </div>
+                        
+                        <button class="right">
+                            <img src="./delete.svg" alt="">
+                        </button>
+                    </li>
+    
+                    <li class="item">
+                        <div class="left">
+                            <button class="btn"> 
+                                <img src="./tick.png" alt="">
+                            </button>
+                            <span class="text">
+                                Complete Todo App on Frontend Mentor
+                            </span>
+                        </div>
+                        <button class="right">
+                            <img src="./delete.svg" alt="">
+                        </button>
+                    </li>
+    
+                    <li class="item">
+                        <div class="left">
+                            <button class="btn"> 
+                                <img src="./tick.png" alt="">
+                            </button>
+                            <span class="text">
+                                Complete Todo App on Frontend Mentor
+                                Complete Todo App on Frontend Mentor
+                                Complete Todo App on Frontend Mentor
+                            </span>
+                        </div>
+                        <button class="right">
+                            <img src="./delete.svg" alt="">
+                        </button>
+                    </li>
+    
+                    <li class="item">
+                        <div class="left">
+                            <button class="btn"> 
+                                <img src="./tick.png" alt="">
+                            </button>
+                            <span class="text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas debitis optio eos quisquam. Quo molestiae quod eius, quis rem vitae magni, ratione nobis fuga iste deleniti fugiat asperiores! Libero, recusandae?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel amet in, ea perspiciatis fugit iste voluptate assumenda eligendi cupiditate corrupti id atque ducimus! Commodi assumenda libero saepe. Tempora, asperiores repellat?
+                            </span>
+                        </div>
+                        <button class="right">
+                            <img src="./delete.svg" alt="">
+                        </button>
+                    </li>
